@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Clothes</title>
     <!--Estilos CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!--Links Box-Icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -15,7 +15,7 @@
 </head>
 <body>
     <header class="header">
-        <span class="logo">Y-Clothes</span>
+        <span class="logo"><a href="#">Y-Clothes</a></span>
 
         <nav class="nav">
             <ul class="nav-link">
@@ -24,18 +24,54 @@
                 <li><a href="#">Acessories</a></li>
             </ul>
 
-            <span class="nav-button">
-                <ul>
-                    <li>
-                        <a href="#"><i class='bx bx-user'></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class='bx bx-shopping-bag'></i></a>
-                    </li>
-                </ul>
-            </span>
+            <div class="nav-button">
+                <button>
+                    <a href="#"><i class='bx bx-user'></i></a>
+                </button>
+                <button>
+                    <a href="#"><i class='bx bx-shopping-bag'></i></a>
+                </button>
+            </div>
         </nav>
-
     </header>
+
+    <main class="main">
+        <section class="hero">
+            <p class="hero-text">Elevated <span>Style. luxury</span> with <span>Y-Clothes</span></p>
+            <img src="assets/img/clothes.jpg" alt="Pessaos com roupas elegantes">
+        </section>
+
+        <section class="hero-cards">
+            <div class="card">
+                <img src="assets/img/clothes2.jpg" alt="">
+                <span class="card-buy">
+                    <p>$R 350,00</p>
+                    <button class="btn-buy">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </span>
+            </div>
+
+            <div class="card02">
+                <img src="assets/img/clothes3.jpg" alt="">
+                <span class="card-buy">
+                    <p>$R 350,00</p>
+                    <button class="btn-buy">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </span>
+            </div>
+
+            <div class="card03">
+                <img src="assets/img/clothes4.jpg" alt="">
+                <span class="card-buy">
+                    <p>$R 350,00</p>
+                    <button class="btn-buy">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </span>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
